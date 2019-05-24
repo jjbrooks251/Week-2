@@ -1,0 +1,101 @@
+
+public class OneToTen {
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i <= 19; i++) {
+			
+			// converts the value of i into a string
+			String s = Integer.toString(i);
+
+			// gives the length of this string a numeric value
+			int l = s.length();
+			
+			// x and j declared for now, explained below
+			int x;
+			int j;
+
+			if (l == 2 && i < 20) {
+
+				j = s.charAt(l - 1);
+
+				x = Character.getNumericValue(j);
+
+				switch (x) {
+				case 0:
+					System.out.print("Ten ");
+					break;
+				case 1:
+					System.out.print("Eleven ");
+					break;
+				case 2:
+					System.out.print("Twelve ");
+					break;
+				case 3:
+					System.out.print("Thirteen ");
+					break;
+				case 4:
+					System.out.print("Fourteen ");
+					break;
+				case 5:
+					System.out.print("Fifteen ");
+					break;
+				case 6:
+					System.out.print("Sixteen ");
+					break;
+				case 7:
+					System.out.print("Seventeen ");
+					break;
+				case 8:
+					System.out.print("Eighteen ");
+					break;
+				case 9:
+					System.out.print("Nineteen ");
+					break;
+
+				}
+
+			} else {
+				j = s.charAt(l - 1);
+
+				x = Character.getNumericValue(j);
+
+				switch (x) {
+				case 0:
+					System.out.print("Zero ");
+					break;
+				case 1:
+					System.out.print("One ");
+					break;
+				case 2:
+					System.out.print("Two ");
+					break;
+				case 3:
+					System.out.print("Three ");
+					break;
+				case 4:
+					System.out.print("Four ");
+					break;
+				case 5:
+					System.out.print("Five ");
+					break;
+				case 6:
+					System.out.print("Six ");
+					break;
+				case 7:
+					System.out.print("Seven ");
+					break;
+				case 8:
+					System.out.print("Eight ");
+					break;
+				case 9:
+					System.out.print("Nine ");
+					break;
+				}
+			}
+
+		}
+
+	}
+
+}

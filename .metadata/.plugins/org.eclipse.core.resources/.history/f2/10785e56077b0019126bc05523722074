@@ -1,0 +1,17 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println("HelloWorld");
+		System.out.println(add(3, 5); 
+	}
+
+	static int add(int num1, int num2) {
+
+		int num3 = num1 + num2;
+
+		return num3;
+
+	}
+
+}

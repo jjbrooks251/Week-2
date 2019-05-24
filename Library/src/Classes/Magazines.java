@@ -1,0 +1,27 @@
+package Classes;
+
+public class Magazines extends General {
+
+	private int issueNo;
+
+	public Magazines(String location, int itemId, String publisher, double id, int stock, String coverCol,
+			Boolean condition, int pageNo, int issueNo) {
+		super(location, itemId, publisher, id, stock, coverCol, condition, pageNo);
+		this.issueNo = issueNo;
+	}
+
+	public int getIssueNo() {
+		return issueNo;
+	}
+
+	public void setIssueNo(int issueNo) {
+		this.issueNo = issueNo;
+	}
+
+	@Override
+	public String toString() {
+		return getLocation() + ", " + getItemId() + ", " + getPublisher() + ", " + getId() + ", Stock: " + getStock()
+				+ ", " + getCoverCol() + ", " + getCondition() + ", " + getPageNo() + ", " + issueNo + "\n";
+	}
+
+}

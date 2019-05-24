@@ -1,0 +1,13 @@
+package logic;
+
+import Classes.Plane;
+import Classes.Boat;
+import Classes.Car;
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+	}
+
+}

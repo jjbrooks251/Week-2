@@ -1,0 +1,22 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println("HelloWorld");
+	}
+
+	static int calc(int num1, int num2) {
+
+		num1 = 5;
+		num2 = 7;
+
+		int num3 = num1 + num2;
+
+		return num3;
+
+	}
+
+	System.out.println(calc());
+
+
+}

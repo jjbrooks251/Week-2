@@ -1,0 +1,50 @@
+package Classes;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Catalogue {
+
+	private ArrayList<Vehicle> vehicleList = new ArrayList<Vehicle>();
+
+	public void vehicleList(String colour) {
+
+		List<Vehicle> vehicleList = vehicleList.stream().filter(p -> colour.equals(p.getColour()))
+				.collect(Collectors.toList());
+		System.out.println(v);
+	}
+
+	public ArrayList<Vehicle> getList() {
+		return vehicleList;
+	}
+
+	public void setList(ArrayList<Vehicle> vehicleList) {
+		this.vehicleList = vehicleList;
+	}
+
+	public void costVehicle(ArrayList<Vehicle> vehicleList) {
+
+		// get max elements for the passed list
+		// assign that value to an integer
+		// for loop of i to max value to get the individual vehicle
+		// if loop based on the length of the vehicle list
+		// calculate each piece as needed
+		// add all calculations to a count
+		// at end of every iteration and this count to a new array
+
+		for (Vehicle v : vehicleList) {
+			if (v.getClass().getCanonicalName().equals("Classes.Boat")) {
+				System.out.println("boat");
+			} else if (v.getClass().getCanonicalName().equals("Classes.Plane")) {
+				System.out.println("plane");
+			} else if (v.getClass().getCanonicalName().equals("Classes.Car")) {
+				System.out.println("car");
+			} else {
+				System.out.println("No entry");
+			}
+		}
+
+	}
+
+}

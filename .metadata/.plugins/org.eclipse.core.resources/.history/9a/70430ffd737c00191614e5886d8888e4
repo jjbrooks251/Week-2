@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class Manager {
+
+	private ArrayList<Person> employees = new ArrayList<Person>();
+
+	public Person personList(String name) {
+
+		return employees.stream().filter(p -> p.equals(name)).findFirst().get();
+
+	}
+	
+	public void setter(ArrayList<Person> personList) {
+		this.employees = personList;
+		
+		
+		
+	}
+}

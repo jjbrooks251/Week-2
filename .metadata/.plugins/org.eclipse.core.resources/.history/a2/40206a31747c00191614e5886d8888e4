@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class Manager {
+
+	private ArrayList<Person> personList = new ArrayList<Person>();
+
+	public Person personList(String name) {
+
+		return personList.stream().filter(p -> p.equals(name)).findFirst().get();
+
+	}
+
+	public void setPersonList(ArrayList<Person> personList) {
+		this.personList = personList;
+
+	}
+	
+	public ArrayList<Person> getPersonList(ArrayList<Person> personList){
+		return personList;
+	}
+}

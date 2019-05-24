@@ -1,0 +1,25 @@
+
+public class OneToTen {
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i <= 10; i++) {
+
+			String s = Integer.toString(i);
+			int l = s.length();
+
+			// System.out.print(s.length());
+			// System.out.println(" " + l * 2);
+
+			if (l == 2) {
+				System.out.println("ten");
+				System.out.println(s.charAt(0));
+			} else {
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,14 @@
+
+import Classes.Book;
+import Classes.Magazines;
+import Classes.Thesis;
+
+public class Runner {
+	public static void main(String[] args) {
+
+		Book b1 = new Book();
+		Magazines m1 = new Magazines();
+		Thesis t1 = new Thesis();
+
+	}
+}

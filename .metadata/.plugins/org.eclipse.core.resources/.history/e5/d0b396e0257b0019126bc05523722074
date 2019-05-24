@@ -1,0 +1,95 @@
+
+public class OneToTen {
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i <= 19; i++) {
+
+			String s = Integer.toString(i);
+			int l = s.length();
+			int x;
+			// System.out.print(s.length());
+			// System.out.println(" " + l * 2);
+
+			if (l == 2 && i < 20) {
+				// System.out.println("ten");
+				// System.out.println(s.charAt(1));
+
+				x = s.charAt(l - 1);
+
+				switch (x) {
+				case 0:
+					System.out.print("Ten " + i);
+					break;
+				case 1:
+					System.out.print("Eleven " + i);
+					break;
+				case 2:
+					System.out.print("Twelve " + i);
+					break;
+				case 3:
+					System.out.print("Thirteen " + i);
+					break;
+				case 4:
+					System.out.print("Fourteen " + i);
+					break;
+				case 5:
+					System.out.print("Fifteen " + i);
+					break;
+				case 6:
+					System.out.print("Sixteen " + i);
+					break;
+				case 7:
+					System.out.print("Seventeen " + i);
+					break;
+				case 8:
+					System.out.print("Eighteen " + i);
+					break;
+				case 9:
+					System.out.print("Nineteen " + i);
+					break;
+
+				}
+
+			} else {
+				x = s.charAt(l - 1);
+
+				switch (x) {
+				case 0:
+					System.out.print("Zero " + i);
+					break;
+				case 1:
+					System.out.print("One " + i);
+					break;
+				case 2:
+					System.out.print("Two " + i);
+					break;
+				case 3:
+					System.out.print("Three " + i);
+					break;
+				case 4:
+					System.out.print("Four " + i);
+					break;
+				case 5:
+					System.out.print("Five " + i);
+					break;
+				case 6:
+					System.out.print("Six " + i);
+					break;
+				case 7:
+					System.out.print("Seven " + i);
+					break;
+				case 8:
+					System.out.print("Eight " + i);
+					break;
+				case 9:
+					System.out.print("Nine " + i);
+					break;
+				}
+			}
+
+		}
+
+	}
+
+}

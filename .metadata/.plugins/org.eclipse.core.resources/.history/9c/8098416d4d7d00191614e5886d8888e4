@@ -1,0 +1,24 @@
+package Classes;
+
+import java.util.Date;
+
+public class Media extends Library {
+	
+	private String title;
+
+	public Media(String location, int itemId, String publisher, double id, Date release, int stock, String title) {
+		super(location, itemId, publisher, id, release, stock);
+		this.title = title;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	
+	
+
+}

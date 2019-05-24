@@ -1,0 +1,24 @@
+package Classes;
+
+public class Plane extends Vehicle {
+
+	private double wingSize;
+	private int pilotNo;
+
+	public double getWingSize() {
+		return wingSize
+	}
+
+	public void setWingSize(double wingSize) {
+		this.wingSize = wingSize;
+	}
+
+	public int getPilotNo() {
+		return pilotNo;
+	}
+
+	public void setPilotNo(int pilotNo) {
+		this.pilotNo = pilotNo;
+	}
+
+}

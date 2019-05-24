@@ -1,0 +1,33 @@
+
+public class Bird extends Animal {
+
+	private String beakColour;
+	private double wingSpan;
+	private String eyeColour;
+
+	public String getBeakColour() {
+		return beakColour;
+	}
+
+	public void setBeakColour(String beakColour) {
+		this.beakColour = beakColour;
+
+	}
+
+	public double getWingSpan() {
+		return wingSpan;
+	}
+
+	public void getWingSpan(double wingSpan) {
+		this.wingSpan = wingSpan;
+	}
+
+	public String getEyeColour() {
+		retunr eyeColour;
+	}
+
+	public void setEyeColour(String eyeColour) {
+
+		this.eyeColour = eyeColour;
+	}
+}

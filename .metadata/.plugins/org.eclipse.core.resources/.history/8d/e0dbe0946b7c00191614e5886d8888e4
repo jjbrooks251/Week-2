@@ -1,0 +1,20 @@
+
+public class Person {
+
+	String Firstname;
+	int age;
+	String Occupation;
+
+	public void name(String word) {
+
+		this.Firstname = word;
+
+	}
+
+	public void name(String first, int num) {
+
+		this.Firstname = first;
+		this.age = num;
+	}
+
+}

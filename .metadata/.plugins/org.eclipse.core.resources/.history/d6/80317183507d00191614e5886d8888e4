@@ -1,0 +1,22 @@
+package Classes;
+
+import java.util.Date;
+
+public abstract class Documents extends Library {
+
+	private String writer;
+
+	public Documents(String location, int itemId, String publisher, double id, Date release, int stock, String writer) {
+		super(location, itemId, publisher, id, release, stock);
+		this.writer = writer;
+	}
+
+	public String getWriter() {
+		return writer;
+	}
+
+	public void setWriter(String writer) {
+		this.writer = writer;
+	}
+
+}

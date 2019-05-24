@@ -1,0 +1,33 @@
+
+public class Animal {
+
+	private int age;
+	private String species;
+	private String colour;
+
+	public Animal(int age, String species) {
+		this.age = age;
+		this.species = species;
+	}
+
+	public Animal(int age, String species, String colour) {
+		this.age = age;
+		this.species = species;
+		this.colour = colour;
+
+	}
+
+	public int getage() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public String getSpecies() {
+		return species;
+	}
+
+	public
+}

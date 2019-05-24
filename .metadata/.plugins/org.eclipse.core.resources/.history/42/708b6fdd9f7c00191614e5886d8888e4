@@ -1,0 +1,24 @@
+package Classes;
+
+public class Car extends Public {
+
+	private Double engSize;
+	private int doorNo;
+
+	public Double getEngSize() {
+		return engSize;
+	}
+
+	public void setEngSize(Double engSize) {
+		this.engSize = engSize;
+	}
+
+	public int getDoorNo() {
+		return doorNo;
+	}
+
+	public void setDoorNo(int doorNo) {
+		this.doorNo = doorNo;
+	}
+
+}

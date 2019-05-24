@@ -1,0 +1,17 @@
+
+public class CheckString {
+	static String name = "Josh";
+
+	public static void main(String[] args) {
+
+		if (name == "Josh") {
+
+			System.out.println("The Strings match");
+
+		} else {
+			System.out.println("Strings do not match");
+		}
+
+	}
+
+}

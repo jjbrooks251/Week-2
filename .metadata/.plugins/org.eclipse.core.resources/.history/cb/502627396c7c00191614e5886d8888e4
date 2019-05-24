@@ -1,0 +1,26 @@
+
+public class Person {
+
+	public String Firstname;
+	public int age;
+	public String Occupation;
+
+	public Person(String word) {
+
+		this.Firstname = word;
+
+	}
+
+	public Person(String first, int num) {
+
+		this.Firstname = first;
+		this.age = num;
+	}
+
+	public void Print() {
+
+		System.out.println(Firstname + ", " + age + ", " + Occupation);
+
+	}
+
+}

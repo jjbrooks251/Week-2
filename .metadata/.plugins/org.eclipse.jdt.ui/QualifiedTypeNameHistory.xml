@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="ListPractice"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="Classes.Plane"/>
+<fullyQualifiedTypeName name="Classes.Boat"/>
+<fullyQualifiedTypeName name="Classes.Car"/>
+<fullyQualifiedTypeName name="Classes.Catalogue"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="Classes.Book"/>
+<fullyQualifiedTypeName name="Classes.Magazines"/>
+<fullyQualifiedTypeName name="Classes.Thesis"/>
+<fullyQualifiedTypeName name="Classes.StockList"/>
+<fullyQualifiedTypeName name="Interfaces.CheckInable"/>
+<fullyQualifiedTypeName name="Interfaces.CheckOutable"/>
+</qualifiedTypeNameHistroy>

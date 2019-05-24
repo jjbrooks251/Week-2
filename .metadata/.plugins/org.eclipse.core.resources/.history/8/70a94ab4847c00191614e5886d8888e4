@@ -1,0 +1,24 @@
+
+public class Mammal extends Animal{
+	
+	private String hairColour;
+	private Boolean oxygen;
+	
+	
+	public String getHairColour() {
+		return hairColour;
+	}
+	
+	public void setHairColour(String hairColour) {
+		this.hairColour = hairColour;
+	}
+	
+	public Boolean getOxygen() {
+		return oxygen;
+	}
+	
+	public void setOxygen(String oxygen) {
+		this.oxygen = oxygen;
+	}
+
+}

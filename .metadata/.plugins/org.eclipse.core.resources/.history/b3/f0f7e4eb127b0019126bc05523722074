@@ -1,0 +1,13 @@
+
+public class CheckString {
+
+	public static void main(String[] args) {
+
+		String name = "Josh";
+		if (name = "Josh")
+			;
+		System.out.println("The Strings match");
+
+	}
+
+}

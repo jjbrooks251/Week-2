@@ -1,0 +1,9 @@
+package Classes;
+
+public class Magazines {
+	
+	private int issueNo;
+	
+	
+
+}

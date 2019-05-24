@@ -1,0 +1,13 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+		Person name = new Person("Ben");
+		Person name2 = new Person("Chris", 4);
+
+		System.out.println(name);
+
+	}
+
+}

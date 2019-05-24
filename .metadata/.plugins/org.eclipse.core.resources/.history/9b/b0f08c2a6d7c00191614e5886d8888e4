@@ -1,0 +1,10 @@
+
+public class Manager {
+
+	ArrayList<String> employees = new ArrayList<String>();
+	
+	
+	
+	
+	
+}

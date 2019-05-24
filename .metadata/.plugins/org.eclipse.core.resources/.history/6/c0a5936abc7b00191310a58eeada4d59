@@ -1,0 +1,56 @@
+import java.util.ArrayList;
+
+public class ListPractice {
+
+	public static void main(String[] args) {
+
+		ListPractice name = new ListPractice();
+
+		name.q1();
+		System.out.println(name.q2(5));
+		System.out.println(name.q3(""));
+
+	}
+
+	private ArrayList q1() {
+		ArrayList<Integer> list1 = new ArrayList<Integer>();
+		for (int i = 0; i <= 10; i++) {
+
+			list1.add(i);
+			System.out.println(list1.get(i));
+
+		}
+		return list1;
+	}
+
+	private boolean q2(int num) {
+
+		return this.q1().contains(num) == true;
+
+	}
+
+	private Boolean q3(String word) {
+		ArrayList<String> list3 = new ArrayList<String>();
+
+		list3.add("aaa");
+		list3.add("fff");
+		list3.add("ssss");
+		list3.add("ggg");
+		list3.add("aaa");
+		list3.add("dddd");
+
+		return list3.contains(word) == true;
+
+	}
+
+	private void q4(int num) {
+		ArrayList<Integer> list1 = new ArrayList<Integer>();
+		for (int i = 0; i <= num; i++) {
+
+			list1.add(i);
+
+		}
+
+	}
+
+}

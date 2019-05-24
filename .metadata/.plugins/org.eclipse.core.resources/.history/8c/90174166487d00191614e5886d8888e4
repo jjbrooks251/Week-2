@@ -1,0 +1,11 @@
+package Classes;
+
+public class Library {
+
+	private String location;
+	private int itemId;
+	private String publisher;
+	private double id;
+	private String release;
+	private int Stock;
+}

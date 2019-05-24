@@ -1,0 +1,7 @@
+import java.util.ArrayList;
+
+public class Manager {
+
+	public ArrayList<String> employees = new ArrayList<String>();
+
+}

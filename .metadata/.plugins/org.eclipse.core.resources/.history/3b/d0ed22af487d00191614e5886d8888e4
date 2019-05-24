@@ -1,0 +1,11 @@
+package Classes;
+
+public class General extends Library {
+
+	private String coverCol;
+	private Boolean condition;
+	
+	
+	
+	
+}

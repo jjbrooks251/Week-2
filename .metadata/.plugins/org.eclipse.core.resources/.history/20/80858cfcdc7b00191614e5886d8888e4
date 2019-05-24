@@ -1,0 +1,25 @@
+
+public class Person {
+
+	public static void main(String[] args) {
+
+		Person info = new Person();
+
+		info.name("Ben");
+		info.age(18);
+	}
+
+	private String name(String word) {
+
+		String Firstname = word;
+
+		return Firstname;
+	}
+
+	private int age(int age) {
+
+		return age;
+
+	}
+
+}

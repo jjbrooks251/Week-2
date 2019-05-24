@@ -1,0 +1,42 @@
+
+public class Person {
+	
+	
+	String Firstname = word + ", ";
+	String age = Integer.toString(num);
+	String Occupation = ", " + title;
+	
+	
+	public String name(String word) {
+
+		
+
+		return Firstname;
+	}
+
+	public String age(int num) {
+
+		
+
+		return age;
+
+	}
+
+	public String Job(String title) {
+
+		
+
+		return Occupation;
+	}
+
+	public String combo(String name, int age, String job) {
+
+		String s = "er";
+
+		System.out.println(this.name(name) + this.age(age) + this.Job(job));
+
+		return s;
+
+	}
+
+}

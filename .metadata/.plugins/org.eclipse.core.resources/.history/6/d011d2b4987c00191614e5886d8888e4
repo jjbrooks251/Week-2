@@ -1,0 +1,15 @@
+package Classes;
+
+public class Car extends Vehicle {
+
+	private int doorNo;
+
+	public int getDoorNo() {
+		return doorNo;
+	}
+	
+	public void setDoorNo(int doorNo) {
+		this.doorNo =doorNo;
+	}
+
+}

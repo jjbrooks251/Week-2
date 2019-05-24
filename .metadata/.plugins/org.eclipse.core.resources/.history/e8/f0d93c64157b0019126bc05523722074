@@ -1,0 +1,17 @@
+
+public class CalculatorCont {
+
+	public static void main(String[] args) {
+
+		int num1 = 10;
+		int num2 = 5;
+
+		String ops = "add";
+
+		if (ops.equals("add")) {
+			System.out.println(num1 + num2);
+		}
+
+	}
+
+}

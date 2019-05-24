@@ -1,0 +1,14 @@
+
+public class Person {
+
+	String Firstname;
+	int age;
+	String Occupation;
+
+	public void name(String word) {
+
+		this.Firstname = word;
+
+	}
+
+}

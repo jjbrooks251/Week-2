@@ -1,0 +1,49 @@
+
+public class ParseInt {
+
+	public static void main(String[] args) {
+		String Output;
+		int currentChar;
+
+		int num = 9;
+		String s = Integer.toString(num);
+
+		for (int i = s.length() - 1; i < s.length(); i--) {
+			Output = "";
+			currentChar = s.charAt(i);
+			switch (i) {
+			case 1:
+				Output = Output + " Zero";
+				break;
+			case 2:
+				Output = Output + " One";
+				break;
+			case 3:
+				Output = Output + " Two";
+				break;
+			case 4:
+				Output = Output + " Three";
+				break;
+			case 5:
+				Output = Output + " Four";
+				break;
+			case 6:
+				Output = Output + " Five";
+				break;
+			case 7:
+				Output = Output + " Six";
+				break;
+			case 8:
+				Output = Output + " Seven";
+				break;
+			case 9:
+				Output = Output + " Eight";
+				break;
+			case 10:
+				Output = Output + " Nine";
+				break;
+
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class Manager {
+
+	private ArrayList<Person> personList = new ArrayList<Person>();
+
+	
+
+	public void setPersonList(ArrayList<Person> personList) {
+		this.personList = personList;
+
+	}
+
+	public ArrayList<Person> getPersonList() {
+		return personList;
+	}
+}

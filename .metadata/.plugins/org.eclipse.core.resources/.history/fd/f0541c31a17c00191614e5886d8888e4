@@ -1,0 +1,17 @@
+package logic;
+
+import Classes.Plane;
+import Classes.Boat;
+import Classes.Car;
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+		Plane p1 = new Plane();
+		Boat b1 = new Boat();
+		Car c1 = new Car();
+		
+	}
+
+}

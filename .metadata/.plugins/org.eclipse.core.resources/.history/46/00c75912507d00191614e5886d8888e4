@@ -1,0 +1,11 @@
+package Classes;
+
+public class Magazines extends General{
+
+	private int issueNo;
+
+	
+	
+	
+
+}

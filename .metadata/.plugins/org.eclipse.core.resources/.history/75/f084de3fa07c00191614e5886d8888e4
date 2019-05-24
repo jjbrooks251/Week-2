@@ -1,0 +1,24 @@
+package Classes;
+
+public class Boat extends Vehicle {
+
+	private int propNo;
+	private String name;
+
+	public int getPropNo() {
+		return propNo;
+	}
+
+	public void setPropNo(int propNo) {
+		this.propNo = propNo;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

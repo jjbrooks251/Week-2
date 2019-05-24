@@ -1,0 +1,33 @@
+package Classes;
+
+public abstract class Vehicle {
+
+	private String colour;
+	private int seatNo;
+	private String model;
+
+	public String getColour() {
+		return colour;
+	}
+
+	public void setCOlour(String colour) {
+		this.colour = colour;
+	}
+
+	public int getSeatNo() {
+		return seatNo;
+	}
+
+	public void setSeatNo(int seatNo) {
+		this.seatNo = seatNo;
+	}
+
+	public double getModel() {
+		return model;
+	}
+
+	public void setModel(double model) {
+		this.model = model;
+	}
+
+}

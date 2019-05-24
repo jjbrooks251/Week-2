@@ -1,0 +1,55 @@
+package Classes;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Catalogue {
+
+	private int price;
+	private ArrayList<Vehicle> vehicleList = new ArrayList<Vehicle>();
+
+	public void vehicleList(String colour) {
+
+		List<Vehicle> vehicleList2 = vehicleList.stream().filter(p -> colour.equals(p.getColour()))
+				.collect(Collectors.toList());
+		System.out.println(vehicleList2);
+	}
+
+	public ArrayList<Vehicle> getList() {
+		return vehicleList;
+	}
+
+	public void setList(ArrayList<Vehicle> vehicleList) {
+		this.vehicleList = vehicleList;
+	}
+
+	public void costVehicle(ArrayList<Vehicle> vehicleList) {
+
+		for (Vehicle v : vehicleList) {
+			if (v instanceof Boat) {
+
+				System.out.println("boat");
+
+				this.price = 10000 + v.getSeatNo() * 80 + ((Boat) v).getPropNo() * 250;
+
+			} else if (v.getClass().getCanonicalName().equals("Classes.Plane")) {
+
+				System.out.println("plane");
+
+				this.price = 10000 + v.getSeatNo() * 80 + ((Plane) v).getPilotNo() * 500;
+
+			} else if (v.getClass().getCanonicalName().equals("Classes.Car")) {
+
+				System.out.println("car");
+				
+				this.price = 10000 + v.getSeatNo() * 80 + ((Boat) v).getPropNo() * 250;
+
+			} else {
+				System.out.println("No entry");
+			}
+		}
+
+	}
+
+}

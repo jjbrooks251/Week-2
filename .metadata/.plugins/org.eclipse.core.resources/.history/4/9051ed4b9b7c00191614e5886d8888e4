@@ -1,0 +1,14 @@
+package Classes;
+
+public class Public extends Vehicle {
+
+	private int wheelNo;
+
+	public int getWheelNo() {
+		return wheelNo;
+	}
+
+	public void setWheelNo(int wheelNo) {
+		this.wheelNo = wheelNo;
+	}
+}

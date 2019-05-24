@@ -1,0 +1,31 @@
+package Classes;
+
+public class General extends Library {
+
+	private String coverCol;
+	private Boolean condition;
+
+	public General(String location, int itemId, String publisher, double id, String release, int stock, String coverCol,
+			Boolean condition) {
+		super(location, itemId, publisher, id, release, stock);
+		this.coverCol = coverCol;
+		this.condition = condition;
+	}
+
+	public String getCoverCol() {
+		return coverCol;
+	}
+
+	public void setCoverCol(String coverCol) {
+		this.coverCol = coverCol;
+	}
+
+	public Boolean getCondition() {
+		return condition;
+	}
+
+	public void setCondition(Boolean condition) {
+		this.condition = condition;
+	}
+
+}

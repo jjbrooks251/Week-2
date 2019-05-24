@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+
+public class StreamPractice {
+
+	public static void main(String[] args) {
+
+		StreamPractice legend = new StreamPractice();
+	}
+
+	private void list(String word) {
+		ArrayList<String> list3 = new ArrayList<String>();
+
+		list3.add("aaa");
+		list3.add("fff");
+		list3.add("ssss");
+		list3.add("ggg");
+		list3.add("aaa");
+		list3.add("dddd");
+
+		list3.stream().filter(i -> list3.contains(word)).collect(Collectors.toList());
+
+	}
+}

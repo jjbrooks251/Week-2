@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class Manager {
+
+	public ArrayList<Person> employees = new ArrayList<Person>();
+	public String className;
+
+	public Manager(ArrayList<Person> entry) {
+
+		this.employees = entry;
+	}
+
+	public void enterList() {
+
+		this.employees.add(className);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+		Person name = new Person("Chris", 4, "Student");
+		Person name2 = new Person("Ben", 50, "Engineer");
+
+		name.Print();
+		name2.Print();
+
+		Manager pm1 = new Manager();
+		
+		pm1.employees.add(name);
+
+	}
+
+}
